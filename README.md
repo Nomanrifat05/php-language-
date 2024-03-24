@@ -3,6 +3,7 @@
 
 #Your first php file
 #1.
+
 <?php 
 
 	// echo 'hello, ninjas';
@@ -18,8 +19,6 @@
 	<h1><?php echo 'hello, ninjas' ?></h1>
 </body>
 </html>
-
-
 
 
 
