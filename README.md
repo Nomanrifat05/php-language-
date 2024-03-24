@@ -27,7 +27,9 @@ Welcome to my php note!
 ```
 
 #### Example 2:
-```php code
+![image](https://github.com/Nomanrifat05/php-language-/assets/128896891/ebd4783e-6d1e-4b2a-a8d0-fc87c7e048e6)
+
+``` Variables & Constants
 <?php 
 
 	define('NAME', 'Yoshi');
@@ -57,7 +59,9 @@ Welcome to my php note!
 ```
 
 #### Example 3:
-```php code
+![image](https://github.com/Nomanrifat05/php-language-/assets/128896891/78b25ed5-dec4-4f01-aad8-abe09562c984)
+
+```Strings
 <?php 
 
 	$stringOne = 'my email is ';
@@ -65,25 +69,53 @@ Welcome to my php note!
 
 	echo $stringOne.$stringTwo;
 
+	//new line
+	echo "<br>";echo "</br>";
+
+
+
 	$name = 'mario';
 
 	// concatenation
 	echo 'Hey, my name is '.$name;
 
+	 
+
+
 	// variable interpolation
 	echo "Hey, my name is $name"; 
 
+	 
+
 	// escaping characters
 	echo "the ninja screamed \"whaaa\"";
+
+	 
+
+
 	echo 'the ninja scream "whaaa"';
+
+	 
+
 
 	// get single characters
 	echo $name[1];
 
+	 
+
 	// string functions
 	echo strlen($name);
+
+	 
+
 	echo strtoupper($name);
+
+	 
+
 	echo strtolower($name);
+
+	 
+
 	echo str_replace('m', 'w', $name);
 
 ?>
